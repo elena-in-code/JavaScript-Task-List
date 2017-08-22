@@ -1,0 +1,43 @@
+html{
+	height: 100%;
+	width: 100%;
+	background-image: url(https://cdn.pixabay.com/photo/2017/02/28/20/45/lemon-2106781_640.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80vw;
+	background: rgba(255,255,255,.5);
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 10%;
+	font-family: 'Bree Serif', serif;
+}
+button {
+	color: white;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: #0E84CC;
+    align-self: center;
+    width: 30vw;
+    padding: 10px;
+    margin: 10px;
+}
+button:hover {
+	outline: 0;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.3),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+	margin: 5px;
+}
+li {
+	padding: 5px;
+	font-size: 18px;
+}
